@@ -14,14 +14,14 @@ export default function Home() {
         <Image src="/images/bgpic2.gif" layout="fill" objectFit="cover" />
       </div>
       {/* Text content */}
-      <div className="text-center text-white relative z-10">
+      <div className="text-center text-white  relative z-10">
         <a href={"/aboutpage"}>
           <button className="text-white-800 fixed top-3 left-6 z-50 p-4 text-2xl font-MONO transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... ">
             ABOUT
           </button>
         </a>
         <a href={"/Englishlearner"}>
-          <button className="text-white fixed fixed top-14 left-6 z-50 p-4 text-2xl font-MONO transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... ">
+          <button className="text-white fixed top-14 left-6 z-50 p-4 text-2xl font-MONO transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... ">
             LEARN ENGLISH
           </button>
         </a>

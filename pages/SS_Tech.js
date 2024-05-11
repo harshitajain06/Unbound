@@ -30,19 +30,19 @@ export default function SsTech() {
           boxSizing: "border-box",
         }}
       >
-        <div className="w-full">
-          <h1 className="text-4xl md:text-4xl font-bold mb-4 text-lime-200 text-center">
+        <div className="w-full md:pl-44">
+          <h1 className="text-4xl md:text-4xl font-bold mb-4 text-lime-200 text-center md:mt-0 mt-16">
             SECURITY SYSTEMS TECHNICIAN
           </h1>
           <h2 className="text-4xl md:text-2xl font-bold text-green-200 mb-8 text-center">
             DESCRIPTION
           </h2>
 
-          <div className="text-center">
+          <div className="text-left">
             <h3 className="text-2xl md:text-xl font-bold mb-4 text-amber-300">
               Job Overview
             </h3>
-            <p className="text-white mb-8 leading-relaxed text-balance text-center">
+            <p className="text-white mb-8 leading-relaxed text-balance">
               Security systems technicians in India install, maintain, and
               troubleshoot electronic security systems such as CCTV, access
               control, and alarms.
@@ -52,7 +52,7 @@ export default function SsTech() {
               Basic Salary
             </h3>
 
-            <p className="text-white mb-8 leading-relaxed text-balance text-center">
+            <p className="text-white mb-8 leading-relaxed text-balance">
               Entry-level security systems technicians earn around INR 18,000 to
               INR 30,000 per month.
             </p>
@@ -61,7 +61,7 @@ export default function SsTech() {
               Time Consumption
             </h3>
 
-            <p className="text-white mb-8 leading-relaxed text-balance text-center">
+            <p className="text-white mb-8 leading-relaxed text-balance">
               Full-time work, typically 8 hours per day, may involve on-call duty
               and irregular hours for system installations.
             </p>
@@ -70,7 +70,7 @@ export default function SsTech() {
               Basic Knowledge
             </h3>
 
-            <p className="text-white mb-8 leading-relaxed text-balance text-center">
+            <p className="text-white mb-8 leading-relaxed text-balance">
               *{" "}
               <a
                 href="https://www.youtube.com/watch?v=qDuXFxWEjb4&pp=ygUpVW5kZXJzdGFuZGluZyBFbGVjdHJvbmljIFNlY3VyaXR5IFN5c3RlbXM%3D"
@@ -102,7 +102,7 @@ export default function SsTech() {
               Best Places to Work
             </h3>
 
-            <p className="text-white mb-8 leading-relaxed text-balance text-center">
+            <p className="text-white mb-8 leading-relaxed text-balance">
               *{" "}
               <a
                 href="https://www.naukri.com/security-system-integration-jobs"
