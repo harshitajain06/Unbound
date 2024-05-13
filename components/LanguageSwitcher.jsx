@@ -35,16 +35,27 @@ const LanguageSwitcher = () => {
 
   const switchLanguage = (lang) => {
     setCookie(null, COOKIE_NAME, "/auto/" + lang);
-    window.location.reload();
+    // Set custom margin top to the body element
+  
+    // // Reload the window
+    window.location.reload(true);
+    // document.body.style.marginTop = "100 !important";
+    document.body.style.setProperty("top", "0px", "important");
+
   };
 
   return (
     <div className="text-center notranslate">
       <select
-        value={currentLanguage}
-        onChange={(e) => switchLanguage(e.target.value)}
-        className="px-8 py-2 rounded-md bg-black text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-      >
+      value={currentLanguage}
+      onChange={(e) => {
+        switchLanguage(e.target.value);
+        // Add margin top directly when language is changed
+        // document.body.style.setProperty("margin-top", "0px", "important");
+
+      }}
+      className="px-8 py-2 rounded-md bg-black text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+    >
         {languageConfig.languages.map((ld) => (
           <option key={`lang_${ld.name}`} value={ld.name}>
             {ld.title}
@@ -56,3 +67,4 @@ const LanguageSwitcher = () => {
 };
 
 export { LanguageSwitcher, COOKIE_NAME };
+

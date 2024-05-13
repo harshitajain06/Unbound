@@ -13,8 +13,15 @@ export default function english_learner() {
 
   return (
     <Layout className="flex items-center justify-center relative">
-      <section className="">
-        <div className="text-center ">
+      <section  style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          minHeight: "calc(100vh - 100px)", // Adjusted minHeight
+          padding: "0 20px",
+          boxSizing: "border-box",
+        }}>
+        <div className="text-center md:px-80 ">
           <h1 className="text-4xl md:text-4xl font-bold  text-lime-200">
             LEARN ENGLISH!
           </h1>
@@ -25,7 +32,7 @@ export default function english_learner() {
           <div>
             {/* Language switchers */}
             <div
-              className="grid grid-cols-2 gap-4 justify-items-center mt-4 px-80 text-l"
+              className="grid grid-cols-2 gap-4 justify-items-center mt-4 text-l"
               style={{ fontFamily: "Times, serif" }}
             >
               <div className="border-4 w-full max-w-48 ... h-12 ... px-8 py-2 text-lime-200 hover:bg-zinc-600 hover:text-white transition duration-300">
@@ -36,7 +43,7 @@ export default function english_learner() {
                     rel="noopener noreferrer"
                   >
                     {" "}
-                    Hindi → English{" "}
+                    Hindi →English{" "}
                   </a>
                 </h3>
               </div>
@@ -140,7 +147,7 @@ export default function english_learner() {
                     rel="noopener noreferrer"
                   >
                     {" "}
-                    Malayalam → English{" "}
+                    Malayalam→English{" "}
                   </a>
                 </h3>
               </div>
